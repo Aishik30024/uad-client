@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/Test/page": "app/Test/page.js",
+  "/landing/page": "app/landing/page.js",
+  "/home/page": "app/home/page.js",
+  "/LoadingPage/page": "app/LoadingPage/page.js",
+  "/our-concept/page": "app/our-concept/page.js",
+  "/our-art/page": "app/our-art/page.js",
+  "/contacts/page": "app/contacts/page.js",
+  "/projects/craftedcacao/page": "app/projects/craftedcacao/page.js",
+  "/page": "app/page.js",
+  "/projects/bee/page": "app/projects/bee/page.js",
+  "/projects/example/page": "app/projects/example/page.js",
+  "/projects/swadeshi/page": "app/projects/swadeshi/page.js",
+  "/projects/technicon/page": "app/projects/technicon/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/projects/upstairz/page": "app/projects/upstairz/page.js"
+}

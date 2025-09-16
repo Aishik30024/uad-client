@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  overflow-x: hidden !important; /* Hide horizontal overflow */
+  overflow-y: auto !important;  /* Allow vertical scrolling */
+}
+
+/* Custom font classes */
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
