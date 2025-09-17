@@ -373,7 +373,7 @@ export default function Gallery({ logoText, cards, categories }) {
                 >
                   <img
                     ref={centerImageRef}
-                    src={`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/${card.image}`}
+                    src={card.image}//or use {`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/$`}
                     alt={card.title}
                     className="w-full h-full object-cover"
                   />
@@ -452,7 +452,7 @@ export default function Gallery({ logoText, cards, categories }) {
               >
                 <img
                   ref={card.isCenter ? centerImageRef : null}
-                  src={`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/${card.image}`}
+                  src={card.image}//{`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/${card.image}`}
                   alt={card.title}
                   className="w-full h-full object-cover"
                 />
@@ -507,7 +507,7 @@ export default function Gallery({ logoText, cards, categories }) {
               >
                 <img
                   ref={card.isCenter ? centerImageRef : null}
-                  src={`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/${card.image}`}
+                  src={card.image} //{`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/${card.image}`}
                   alt={card.title}
                   className="w-full h-full object-cover"
                 />

@@ -12,7 +12,7 @@ export default function Home() {
     {
       id: "card-1",
       image:
-        "/bee/product3.png",
+        "https://aishik30024.github.io/uad-client/bee/product3.png",
       title: "BEE",
       description: "BeeSweet",
       isCenter: false,
