@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 import ScrollSection from "@/components/scrollsection/ScrollSection";
 import Head from "next/head";
 import Footer from "../../components/Footer";
@@ -11,8 +11,8 @@ export default function Home() {
   const cards1 = [
     {
       id: "card-1",
-      image:
-        "/bee/product3.png",
+      image: 
+        <Image src="/bee/product3.png" alt="BEE" />,//testing image component
       title: "BEE",
       description: "BeeSweet",
       isCenter: false,
