@@ -77,7 +77,7 @@ function MainComponent() {
                 <div className="group cursor-pointer">
                   <div className="relative overflow-hidden rounded-lg">
                     <img
-                      src={project.image}
+                      src= {`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/${project.image}`}
                       alt={project.title}
                       className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
                     />

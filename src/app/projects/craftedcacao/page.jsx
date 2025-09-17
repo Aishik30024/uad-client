@@ -20,7 +20,7 @@ function MainComponent() {
         {images.map((src, index) => (
           <section key={index} className="w-full">
             <img
-              src={src}
+              src={`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/${src}`}
               alt={`Desktop - ${index + 1}.png`}
               className="w-full h-auto object-cover"
             />

@@ -44,7 +44,7 @@ export default function Hero() {
             From strategy to identity to digital presence, we craft brands that stand out, scale up, and stay unforgettable. End-to-end solutions built to help you outgrow the company you used to be
           </p>
           <Link
-            href="/contact"
+            href="/contacts"
             className="absolute"
             style={{
               width: '14vw',
@@ -104,7 +104,7 @@ export default function Hero() {
               top: '75vh',
             }}
           >
-            <img src="/Spiral.svg" alt="Spiral 1" className="w-full h-full object-contain" />
+            <img src={`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/Spiral.svg`} alt="Spiral 2" className="w-full h-full object-contain" />
           </div>
           <div
             className="absolute animate-spin-slow"

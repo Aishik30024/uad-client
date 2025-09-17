@@ -11,7 +11,8 @@ export default function Home() {
   const cards1 = [
     {
       id: "card-1",
-      image: <img src={`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}//bee/product3.png`}/>,
+      image:
+        "/bee/product3.png",
       title: "BEE",
       description: "BeeSweet",
       isCenter: false,
