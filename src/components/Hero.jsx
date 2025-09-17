@@ -1,7 +1,7 @@
 "use client";
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+
 export default function Hero() {
   return (
     <>
@@ -104,7 +104,7 @@ export default function Hero() {
               top: '75vh',
             }}
           >
-            <Image src="/Spiral.svg" alt="Spiral 1" className="w-full h-full object-contain" />
+            <img src="/Spiral.svg" alt="Spiral 1" className="w-full h-full object-contain" />
           </div>
           <div
             className="absolute animate-spin-slow"
@@ -115,7 +115,7 @@ export default function Hero() {
               top: '25vh',
             }}
           >
-            <Image src="/Spiral.svg" alt="Spiral 2" className="w-full h-full object-contain" />
+            <img src={`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/Spiral.svg`} alt="Spiral 2" className="w-full h-full object-contain" />
           </div>
         </div>
         <style jsx>{`

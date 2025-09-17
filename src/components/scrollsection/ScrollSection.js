@@ -1,6 +1,6 @@
 // components/ScrollSection.jsx
 "use client";
-import Image from 'next/image';
+
 const images = [
   "/Slide_1.jpg",
   "/Slide_2.jpg",
@@ -43,7 +43,8 @@ export default function ScrollSection() {
             `}
           >
             {/* Background image */}
-            <Image src={img}
+            <img
+              src={`${process.env.NODE_ENV === 'production' ? '/uad-client' : ''}/${img}`}
               alt={`Slide ${i + 1}`}
               className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none z-0"
             />
